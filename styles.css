@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&display=swap');
 
 
-/*
-*{
-    outline: 1px dotted blue;
-}
-
-*/
-
 html {
     scroll-behavior: smooth;
 }
@@ -194,7 +187,7 @@ body {
 /*porfolio (flexbox)*/
 
 .portfolio {
-    background-color: /*#F8F8FF*/ grey;
+    background-color: #F5F5F5;
     margin-left: 2em;
     padding-top: 1em;
     padding-left: 2em;
