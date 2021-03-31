@@ -172,13 +172,15 @@ body {
     color: #4B0082;
     font-size: medium;
     word-spacing: 3px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .services ul{
 	font-family: 'Open Sans', sans-serif;
 	text-align: left;
 	color: black;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
     margin: 0;
 }
 
