@@ -6,6 +6,8 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Media Enquires */
+
 @media screen and (max-width: 550px) {
     body {
         background-color: green;
@@ -32,6 +34,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* Header */
+
 .header {
     background-color: #F3C343;
     padding: 2em;
@@ -46,6 +51,8 @@ body {
   margin-right: auto;
   width: 15%;
 }
+
+/* Navigation Bar*/
 
 .navbar {
 	overflow: hidden;
@@ -91,7 +98,7 @@ body {
     color: #4B0082;
 }
 
-/*main image*/
+/*main image banner*/
 
 .banner {
     background-color: #CDCDCD;
@@ -105,7 +112,7 @@ body {
     width: 90%;
 }
  
-
+ /* Contact Button */
 
 .links {
     grid-column: 1/3;
@@ -123,8 +130,8 @@ body {
 	transition: background 0.5s;
 	text-decoration: none;
 	font-family: 'Sansita Swashed', cursive;
-  font-style: bold;
-  font-size: large;
+    font-style: bold;
+    font-size: large;
 }
 
 .btn:hover{
@@ -133,7 +140,7 @@ body {
 }
 
 
-/*services section*/
+/*Services section*/
 
 
 .services {
@@ -184,7 +191,7 @@ body {
 }
 
 
-/*porfolio (flexbox)*/
+/* Porfolio Section (Fancybox)*/
 
 .portfolio {
     background-color: #F5F5F5;
@@ -211,7 +218,7 @@ body {
     list-style: none;
 }
 
-/*about */
+/* About Section */
 
 
 .about {
@@ -245,7 +252,7 @@ body {
 
 
 
-/*form */
+/* Form/Quote Section */
 
 #quote {
     background-color: #4B0082;
@@ -301,7 +308,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* footer */
+/* Footer Section */
 
 #footer {
     color: black;
