@@ -220,12 +220,12 @@ body {
 
 figcaption {
 
-font-style: italic;
 font-variant: small-caps;
 margin: 0;
 text-align: center;
 padding: 1em;
 margin-top: 2em;
+font-family: 'Sansita Swashed', cursive;
 }
 
 /* About Section */
