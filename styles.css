@@ -101,15 +101,14 @@ body {
 /*main image banner*/
 
 .banner {
-    background-color: #CDCDCD;
+    background-color: white;
     padding: 20px 0;
     text-align: center;
     border-bottom: 6px solid #FFD700;
 }
 
 .banner img {
-    max-width: 780px;
-    width: 90%;
+    width: 80%;
 }
  
  /* Contact Button */
@@ -197,10 +196,11 @@ body {
     background-color: #F5F5F5;
     margin-left: 2em;
     padding-top: 1em;
+    padding-bottom: 3em;
     padding-left: 2em;
     margin: 0;
-    height: 55em;
     border-bottom: 6px solid #FFD700;
+    margin-bottom: auto;
 }
 
 .portfolio h1 {
@@ -218,6 +218,16 @@ body {
     list-style: none;
 }
 
+figcaption {
+
+font-style: italic;
+font-variant: small-caps;
+margin: 0;
+text-align: center;
+padding: 1em;
+margin-top: 2em;
+}
+
 /* About Section */
 
 
@@ -225,7 +235,7 @@ body {
 	background-image: url('me_copy.jpg');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 90em;
+    background-size: 95em;
     padding-top: 2em;
     padding-bottom: 25em;
     margin: 0;
@@ -261,6 +271,7 @@ body {
     font-size: 1.1em;
     line-height: 2em;
     padding: 40px 20px;
+    padding-left: 5em;
     padding-bottom: 50px;
 }
 
