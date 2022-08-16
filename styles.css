@@ -219,8 +219,6 @@ body {
 }
 
 figcaption {
-
-font-variant: small-caps;
 margin: 0;
 text-align: center;
 padding: 1em;
@@ -244,7 +242,7 @@ font-family: 'Sansita Swashed', cursive;
 
 .text {
 	text-align: justify;
-	margin-left: 55em;
+	margin-left: 57em;
 	margin-right: 3em;
 }
 
