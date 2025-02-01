@@ -1,209 +1,74 @@
 <!DOCTYPE html>
-<html lang="en"> 
-    
-    <head> 
-        <meta charset="utf-8">
-        <title> Maggie McMillan-Perry </title>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-	    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-        <link rel = "stylesheet" href="styles.css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    
-<!-----Header---->
-    
-    <body>
+	<html>
 
-    <div class= "header">
-      <img src="final_logo_copy.svg" class="logo">
-                
+	<head>
+		<!-- this is where the website meta data is -->
+		<meta charset="utf-8">
+		<title>Portfolio</title>
+		<meta name= "description" content="This is my portfolio">
+		<meta name="author" content="">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
 
 
-<!-----Navigation Bar ------>
-            
-            <div class="navbar">
-            	<ul>
-            		<li> <a href="index.html"><span class= "purple"> Home </span> </a> </li> &bull;
-            		<li> <a href="#services"> Services </a> </li> &bull;
-            		<li> <a href="#portfolio"> Portfolio </a> </li> &bull; 
-            		<li> <a href="#about"> About </a> </li> &bull;
-            		<li> <a href="#contact"> Contact </a> </li>
-            	</ul>
-            </div>
-       
-    </div>
-    
-        <div class="banner">
-          <!--  <img src="big_brand_2.jpg"/> <br>-->
-            <a href="#contact" class="btn">Contact Me Now! »</a>
-        </div>
+	<!-- this is where I add my website content -->
+	<body>
+
+		<!--navigation bar-->
+
+		<nav>
+			<ul class="navigation">
+				<li><img src="images/logo.png" width="70%"></li>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="researchproject.html">RESEARCH PROJECT</a></li>
+				<li></li>
+			</ul> 
+
+		</nav>
 
 
-
-<!-----Services Section---->
-    <div class="services">
-      <h1 id="services">Services</h1>
-
-        <p> I have the skills to help YOU achieve your graphic design dreams! </p> <br>
-
-      <h3>What will you get from me?</h3>
-
-          <ul>
-              <li><b>Custom Designs</b> &ndash; Don't know what you want? Not a problem! Whether you come in with lots of ideas and requirements or have no idea where to start, I am more than happy to create a design that bests suits your needs!</li> 
-              <br>
-
-              <li><b>Open Communication</b> &ndash; Responses to your questions will be answered quickly, within three working days! 
-              </li> <br>
-
-              <li><b>Variety</b> &ndash; I will give you a range of different styles and variations to ideas, concepts and even final designs to choose from! If you have a certain style you want me to take inspiration from- feel free to reach out to me on my contacts section! </li>
-          </ul>
+		<header class="intro">
+			<h1>Hey, I'm Maggie McMillan-Perry,</h1> 
+			<h2>an UX, UI Designer & front-end developer!</h2> 
+		
+			<p id="intro">I am fascinated by the dynamic healthcare system within Aotearoa, which I want to contribute to through my passion for design. I want to create interactive community conscience informed designs grounded by accessibility principles.</p>
+			<p style="font-style: italic;-styl">See my work below! </p>
+		</header>
 
 
-          <h3>Design Software used on-site:</h3>
-            <ul>
-                <li><b>Photoshop</b> &ndash; This well known programme allows editing of photos and the creation of digital artwork for your graphic design needs. </li>  <br>
+		 <section class="gallery"> 
+			<div class="column">
+				<img src="images/healthbridge.jpeg" alt="Image of the Engoo Pen Tool" style="width:100%">
+			</div>
 
-                <li><b>Illustrator</b> &ndash; This software is good for logos, illustrations and vector files! This has helped me create products like logos and signage. </li> <br>
+			<div class="column">
+				<img src="images/engoo.png" alt="Image of the Engoo Pen Tool" style="width:100%">
+			</div>
 
-                <li><b>InDesign</b> &ndash; This is a multi-page layout programme which is used for physical programmes and pamphlets. </li> <br>
+			<div class="column">
+				<img src="images/headphones.jpeg" alt="Image of the Engoo Pen Tool" style="width:100%" >
+			</div>
 
-                <li><b>After Effects</b> &ndash; I recently learnt this programme through my degree, I have learnt how to create interesting motion graphics. </li> <br>
+			<div class="column">
+				<img src="images/spec.jpeg" alt="Image of the Nature Terrarium featuring Phytoplankton" width="100%">
+			</div>
 
-                <li><b>Sublime</b> &ndash; This programme is used to create markup languages like: HTML, CSS, and programming languages like: Javascript, Python and Flask for website designs. I can both code and mock up websites for your needs. </li>
-            </ul>
-    </div>
+			<div class="column">
+				<iframe width="450" height="300" src="https://www.youtube.com/embed/DZYiW2t5I08?si=TTQLgPU_OoGOO8Qx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
 
+			<div class="column">
+				<iframe width="450" height="300" src="https://www.youtube.com/embed/x1X1O6fUwIU?si=LuMZz2FxlItygl8X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
 
+		</section> 
 
-
-
-<!-----Portfolio Section---->
-
-   <div class="portfolio">
-     <h1 id="portfolio">Portfolio - Click to Enlarge <br>(Most recent at top)</h1> 
-
-    <figcaption>Victoria University Assignments <br> <p>Coming Soon!</p></figcaption>
-      <!--<a data-fancybox="brand" href=""><img src=""></a>-->
-
-
-
-<!--
-     <figcaption>Barista Bites + Serendipity Cottage</figcaption>
-        <a data-fancybox="brand" href="big_brand.jpg"><img src="small_brand.jpg"></a>
-        <a data-fancybox="brand" href="big_brand_2.jpg"><img src="small_brand_2.jpg"></a> 
-        <a data-fancybox="brand" href="big_ser_1.jpg"><img src="small_ser_1.jpg"></a>
-        <a data-fancybox="brand" href="big_ser_2.jpg"><img src="small_ser_2.jpg"></a>
-        <a data-fancybox="brand" href="big_ser_3.jpg"><img src="small_ser_3.jpg"></a>
-        <a data-fancybox="brand" href="try.jpg"><img src="small_ser_4.jpg"></a>
-
-
-     <figcaption> Logos + Website Planning, Signage and Illustrations </figcaption>   
-        <a data-fancybox="plan" href="logo_plan.jpg"><img src="small_logo.jpg"></a> 
-        <a data-fancybox="plan" href="web_plan.jpg"><img src="small_web.jpg"></a> 
-        <a data-fancybox="plan" href="big_digi_1.jpg"><img src="small_digi_1.jpg"></a>
-        <a data-fancybox="plan" href="big_digi_3.jpg"><img src="small_digi_3.jpg"></a>
-        <a data-fancybox="plan" href="big_digi.jpg"><img src="small_digi.jpg"></a> 
-       
-    <figcaption>Revive</figcaption>
-        <a data-fancybox="revive" href="big_revive_1.jpg"><img src="small_revive_1.jpg"></a>
-        <a data-fancybox="revive" href="big_revive_2.jpg"><img src="small_revive_2.jpg"></a>
-        <a data-fancybox="revive" href="big_revive_3.jpg"><img src="small_revive_3.jpg"></a>
-        <a data-fancybox="revive" href="big_revive_4.jpg"><img src="small_revive_4.jpg"></a>
-        <a data-fancybox="revive" href="big_revive_5.jpg"><img src="small_revive_5.jpg"></a>
-        <a data-fancybox="revive" href="big_revive_6.jpg"><img src="small_revive_6.jpg"></a> 
-
-    <figcaption>Golden Cranes</figcaption>
-        <a data-fancybox="cranes" href="big_tic_3.jpg"><img src="small_tic_3.jpg"></a>
-        <a data-fancybox="cranes" href="big_tic_2.jpg"><img src="small_tic_2.jpg"></a>
-        <a data-fancybox="cranes" href="big_tic_1.png"><img src="small_tic_1.jpg"></a>
-        <a data-fancybox="cranes" href="big_tic_5.jpg"><img src="small_tic_5.jpg"></a> 
-        <a data-fancybox="cranes" href="big_tic_4.jpg"><img src="small_tic_4.jpg"></a> 
-        <a data-fancybox="cranes" href="big_digi_2.jpg"><img src="small_digi_2.jpg"></a> <br>
-
-      </div>
-
--->
-
-
-
-<!-----About Section---->
-
-        <div class="about">
-        	<div class="text">
-        		<h1 id="about">About</h1>
-   					 <p> Hello awesome human! My name is Maggie McMillan-Perry but most people call me Mags! I am a graphics designer based in Featherston, New Zealand. I have been creating graphic design projects seriously for about 5 years. I have a solid background in marketing, brand identities, visual design and website coding (learning front and backend as we speak!). I am currently studying at Massey University, doing a Bachelor of Design with Honours! I have always been interested in learning new things since I was young. Alongside designing graphic products for clients, I have a keen interest in music and compostion which I have found useful for clients when original music is needed as part of a project. 
-                     <br><br>
-                    Keep scrolling to see some of my awesome work. These are a mix of client based work and personal projects! </p>
-    		</div>
-        </div>
-
-
-
-
-
-    <!-----Quote Section
-
-        <div id="quote">
-        <div class="centered">
-            <h1 id="contact">Get a Quote!</h1>
-            <p> For all your graphic needs, reach out to magsmcperry@gmail.com to connect! </p>
-            <form>
-                <div>
-                    <input type="text" placeholder="Name (Required)" />
-                    <input type="text" placeholder="Email (Required)" />
-                    <input type="text" placeholder="Subject" />
-                    <textarea rows="12" placeholder="Describe your project in detail..."></textarea>
-
-                        submit button~ doesn't actualy 'submit'
-                    <li class="button">
-                 <button type="submit" value="submit">Send your message</button>
-                </li>
-
-                
-                </div>-->
-
-
-    <!-----Contact Info Section---->
-<div id="quote">
-                <div>
-                    <h2 id="contact">Contact Information</h2>
-                    <p>
-                        Keep in mind, since I am a university student, I might not be able to work on your project straight away. Don't hesitate to contact me anyway! 
-                    </p>
-                    <p>
-                        <img src="img/details-address.png" />
-                       45 Palliser Road, Roseneath, Wellington<br />
-                        <img src="img/details-phone.png" />
-                        022 418 1248<br />
-                        <img src="img/details-email.png" />
-                        magsmcperry@gmail.com
-                    </p>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-
-
-
-
-    <!-----Footer Section---->
-    
-    <div id="footer">
-        <div class="centered">
-            <div> &copy; Copyright 2024 &bull; Designed & Coded by Maggie McMillan-Perry.</div>
-<!--
-            <div class="social">
-                <img src="img/social-fb.png"/>
-                <img src="img/social-g+.png" />
-                <img src="img/social-tw.png" />
-                <img src="img/social-li.png" />
-            </div>-->
-        </div>
-    </div>
-    
-    </body>
-
+	</body>
 
 </html>
+

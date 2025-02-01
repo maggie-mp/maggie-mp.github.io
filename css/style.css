@@ -1,0 +1,321 @@
+/*
+nav yellow: #f2b705
+text yellow:#ffd958
+purple: #cba1ff
+light blue: #bbd7e8
+light purple: #D8BFD8
+dark grey: #222222
+Inspiration: http://marialaportuguesa.com/
+Rounded Corners: https://www.w3schools.com/css/css3_borders.asp
+*/
+ 
+
+
+
+/*FONT IMPORTING*/
+
+.pt-sans-regular {
+  font-family: "PT Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-<uniquifier> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+ 
+body{ 
+	background-color: #3c3644; 
+	margin: 0;
+}
+ 
+
+h1, h2, h3 {
+	font-family: Noto Serif;
+}
+
+h2 {
+	font-size: 30px;
+	color: #D8BFD8;
+	margin: 10px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 20px;
+	color: #D8BFD8;
+	margin: 30px 30px 0px 30px; 
+}
+
+p {
+	font-weight: 100;
+	font-family: PT Sans;
+	margin: 40px;
+	color: white;
+}
+
+
+
+
+.intro h1 {
+	font-weight: 600; 
+	font-size: 40px;
+	text-align: center;
+	color: white; 
+	margin: 30px 30px 0px 30px; 
+	padding: 50px 50px 0px 50px;
+}
+
+.intro h2 {
+	font-style: italic;
+}
+
+
+.intro {
+	margin: 0px 150px;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+
+
+
+/*NAVIGATION*/
+
+
+.navigation{
+	margin: 0px;
+	padding: 2px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #D8BFD8;
+	box-shadow: 0 1px 5px 0 lightgrey;
+/*	Shadow effect from here: https://www.w3schools.com/cssref/tryit.php?filename=trycss3_box-shadow2;*/
+}
+
+.navigation a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	margin: 4px 12px;
+	padding: 12px 25px;
+}
+
+.navigation li {
+	float: left;
+	font-family: verdana;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+	margin: 12px;
+}
+
+.navigation img {
+	margin-top: 6px;
+}
+
+.navigation a:link {
+	color: #f2b705;
+}
+
+
+.navigation a:hover {
+	color: white;
+	background-color: mediumpurple;
+	border-radius: 12px;
+}
+
+
+
+/*COLLUMNS*/
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.column_left {
+	float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+.column_rest {
+	float: left;
+  width: 60%;
+  padding: 20px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  background: red;
+}
+
+
+
+/*BLOG - IMAGES*/
+
+.blogimg {
+	margin-left: 30px;
+	float: left;
+}
+
+
+.blogtext {
+	margin: 12px;
+}
+
+
+
+
+/* REFERENCES */
+
+
+.references ul {
+	list-style-type: none;
+	line-height: 50px;
+	color: white;
+	font-family: Verdana;
+	font-size: 0.75rem;
+	font-size: clamp(0.75rem, 0.625rem + 0.5vw, 1rem);
+	margin-bottom: 50px;
+}
+
+a {
+	color: lightblue;
+}
+
+
+
+
+/*BLOG - QUIZ SECTION */
+
+.quiz {
+	margin-top: 20px;
+	padding: 2px;
+	margin-bottom: 200px;
+}
+
+.quiz img {
+	padding: 20px;
+	float: left;
+}
+
+.quiz p {
+	margin: 0;
+}
+
+
+
+/*BLOG - EMPATHISE AND IDEATE*/
+
+.column ul {
+	float: left;
+	font-family: verdana;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.column li {
+	color: white;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+.column p {
+	margin: 10px;
+}
+
+.paragraph_layout { 
+	margin-bottom: 200px;
+ }
+
+.paragraph_layout ul{
+	float: left;
+	font-family: verdana;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 25px;
+	margin-left: 65px;
+}
+
+.paragraph_layout li {
+	color: white;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+.paragraph_layout p {
+	margin: 4px 48px;
+}
+
+
+
+
+
+
+/*RESEARCH REPORT*/
+
+#research {
+	padding: 0px;
+	margin: 20px;
+}
+
+#research h1 {
+	color: white;
+  text-align: center;
+}
+
+.research_gallery
+{
+	margin-bottom: 450px;
+}
+
+#research p {
+	margin-top: 200px;
+	margin-bottom: 100px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: PT Sans;
+}
+
+
+.column_g {
+  float: left;
+  width: 47%;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
