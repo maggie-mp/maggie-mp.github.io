@@ -38,10 +38,10 @@ body {
 /* Header */
 
 .header {
-    background-color: #FFC996;
+    background-color: #F2F2F2;
     padding: 2em;
     color: black;
-    border-bottom: 6px solid #FFC996;
+    border-bottom: 6px solid black;
 }
 
  .logo {
@@ -68,7 +68,7 @@ body {
 .navbar ul {
 	font-family: 'Sansita Swashed', cursive;
 	list-style: none;
-	background: #FFC996;
+	background: #F2F2F2;
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -90,21 +90,21 @@ body {
 }
 
 .navbar a:hover {
-	color: white;
+	color: #631288;
 }
 
 
 .purple {
-    color: #583D72;
+    color: #631288;
 }
 
 /*main image banner*/
 
 .banner {
-    background-color: white;
+    background-color: #F2F2F2;
     padding: 20px 0;
     text-align: center;
-    border-bottom: 6px solid #FFD700;
+    border-bottom: 6px solid black;
 }
 
 .banner img {
@@ -134,7 +134,7 @@ body {
 }
 
 .btn:hover{
-	background: white;
+	background: #F2F2F2;
 	color: black;
 }
 
@@ -143,16 +143,16 @@ body {
 
 
 .services {
-    background-color: #FFC996;
+    background-color: #F2F2F2;
     padding: 2em;
-    border-bottom: 6px solid #FFD700;
+    border-bottom: 6px solid;
     padding-bottom: 3em;
 }
 
 .services h1 {
 	font-family: 'Sansita Swashed', cursive;
     text-align: center;
-    color: #583D72;
+    color: #631288;
     padding-top: 2em;
 }
 
@@ -168,7 +168,7 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    color: #583D72;
+    color: #fdc278;
     font-size: medium;
     word-spacing: 3px;
     text-align: center;
@@ -230,7 +230,6 @@ font-family: 'Sansita Swashed', cursive;
 
 
 .about {
-	background-image: url('me_copy.jpg');
     background-repeat: no-repeat;
     background-position: right;
     background-size: 95em;
@@ -242,20 +241,19 @@ font-family: 'Sansita Swashed', cursive;
 
 .text {
 	text-align: justify;
-	margin-left: 57em;
-	margin-right: 3em;
+    padding: 3em;
 }
 
 .text h1 {
     font-family: 'Sansita Swashed', cursive;
-    color: white;
+    color: blue;
     padding-top: 2em;
 }
 
 .text p {
     font-family: 'Open Sans', sans-serif;
     font-size: large;
-    color: white;
+    color: blue;
 }
 
 
@@ -263,8 +261,8 @@ font-family: 'Sansita Swashed', cursive;
 /* Form/Quote Section */
 
 #quote {
-    background-color: #583D72;
-    border-bottom: 6px solid #583D72;
+    background-color: #631288;
+    border-bottom: 6px solid #631288;
     color: white;
     font-size: 1.1em;
     line-height: 2em;
