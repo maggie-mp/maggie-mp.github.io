@@ -5,8 +5,16 @@ purple: #cba1ff
 light blue: #bbd7e8
 light purple: #D8BFD8
 dark grey: #222222
-Inspiration: http://marialaportuguesa.com/
-Rounded Corners: https://www.w3schools.com/css/css3_borders.asp
+
+UPDATED COLOURS
+#b8b3d7, w white
+#918ac0, 
+#49359f, w black
+#372887, 
+#241b70, 
+#545454
+
+
 */
  
 
@@ -28,6 +36,8 @@ Rounded Corners: https://www.w3schools.com/css/css3_borders.asp
   font-variation-settings:"wdth" 100;
 }
 
+/*TEXT*/
+
 
 * {
 	box-sizing: border-box;
@@ -35,7 +45,7 @@ Rounded Corners: https://www.w3schools.com/css/css3_borders.asp
 
  
 body{ 
-	background-color: #3c3644; 
+	background-color: white; 
 	margin: 0;
 }
  
@@ -46,8 +56,8 @@ h1, h2, h3 {
 
 h2 {
 	font-size: 30px;
-	color: #D8BFD8;
-	margin: 10px;
+	color: #372887;
+/*	margin: 10px;*/
 	text-align: center;
 }
 
@@ -60,18 +70,25 @@ h3 {
 p {
 	font-weight: 100;
 	font-family: PT Sans;
-	margin: 40px;
-	color: white;
+/*	margin: 40px;*/
+	color: #545454;
+}
+
+
+a {
+	color: lightblue;
+
 }
 
 
 
+/*HOMEPAGE*/
 
 .intro h1 {
 	font-weight: 600; 
 	font-size: 40px;
 	text-align: center;
-	color: white; 
+	color: #49359f; 
 	margin: 30px 30px 0px 30px; 
 	padding: 50px 50px 0px 50px;
 }
@@ -82,9 +99,9 @@ p {
 
 
 .intro {
-	margin: 0px 150px;
+	margin: 0px 100px;
 	text-align: center;
-	margin-bottom: 75px;
+	margin-bottom: 50px;
 }
 
 
@@ -98,9 +115,8 @@ p {
 	padding: 2px;
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #D8BFD8;
+	background-color: #b8b3d7;
 	box-shadow: 0 1px 5px 0 lightgrey;
-/*	Shadow effect from here: https://www.w3schools.com/cssref/tryit.php?filename=trycss3_box-shadow2;*/
 }
 
 .navigation a {
@@ -114,7 +130,7 @@ p {
 .navigation li {
 	float: left;
 	font-family: verdana;
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 15px;
 	text-align: center;
 	margin: 12px;
@@ -125,86 +141,68 @@ p {
 }
 
 .navigation a:link {
-	color: #f2b705;
+	color: black;
 }
 
 
 .navigation a:hover {
 	color: white;
-	background-color: mediumpurple;
+	background-color: #49359f;
 	border-radius: 12px;
 }
 
 
 
-/*COLLUMNS*/
+/*COLUMNS + CARDS */
 
-.column {
-  float: left;
-  width: 30%;
-  padding: 20px;
+/*to see the full container on hompage */
+.gallery {
+	margin-bottom: 200px;
+/*	border: 1px solid;*/
+}
+
+.footer {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 10px;
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	transition: 0.3s;
+}
+
+.card:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 #b8b3d7;
+}
+
+.gallery a {
+	text-decoration: none;
+}
+
+.card p {
+	color: black;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
+
 }
 
-
-.column img {
-	max-width: 100%;
-	height: auto;
+video {
+  width: 100%;
+  height: auto;
 }
 
-
-.column_left {
-	float: left;
-  width: 30%;
-  padding: 20px;
-}
-
-.column_rest {
-	float: left;
-  width: 60%;
-  padding: 20px;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  background: red;
-}
-
-
-
-/*BLOG - IMAGES*/
-
-.blogimg {
-	margin-left: 30px;
-	float: left;
-}
-
-
-.blogtext {
-	margin: 12px;
-}
-
-
-
-
-/* REFERENCES */
-
-
-.references ul {
-	list-style-type: none;
-	line-height: 50px;
-	color: white;
-	font-family: Verdana;
-	font-size: 0.75rem;
-	font-size: clamp(0.75rem, 0.625rem + 0.5vw, 1rem);
-	margin-bottom: 50px;
-}
-
-a {
-	color: lightblue;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -218,18 +216,25 @@ a {
 	margin-bottom: 200px;
 }
 
-.quiz img {
-	padding: 20px;
-	float: left;
-}
-
 .quiz p {
-	margin: 0;
+	margin-top: 10px;
+}
+
+
+.quiz .column .card {
+	background-color: white;
 }
 
 
 
-/*BLOG - EMPATHISE AND IDEATE*/
+
+
+/*PORTFOLIO RESEARCH*/
+
+.portfolio .column.inspo{
+	width: 50%;
+	padding: 20px;
+}
 
 .column ul {
 	float: left;
@@ -239,18 +244,18 @@ a {
 	line-height: 25px;
 }
 
-.column li {
+.portfolio li {
 	color: white;
 	font-family: Verdana;
 	font-size: 14px;
 }
 
-.column p {
+.portfolio p {
 	margin: 10px;
 }
 
 .paragraph_layout { 
-	margin-bottom: 200px;
+	margin-bottom: 100px;
  }
 
 .paragraph_layout ul{
@@ -272,6 +277,28 @@ a {
 	margin: 4px 48px;
 }
 
+.portfolio .column.img {
+	padding: 20px;
+	width: 100%;
+}
+
+
+
+
+
+
+/* REFERENCES */
+
+
+.references ul {
+	list-style-type: none;
+	line-height: 50px;
+	color: #545454;
+	font-family: Verdana;
+	font-size: 0.75rem;
+	font-size: clamp(0.75rem, 0.625rem + 0.5vw, 1rem);
+	margin-bottom: 50px;
+}
 
 
 
@@ -284,29 +311,289 @@ a {
 	margin: 20px;
 }
 
+.column.paragraphs {
+	text-align: left;
+	width: 100%;
+	padding: 0 20px 20px 20px;
+}
+
 #research h1 {
-	color: white;
   text-align: center;
-}
-
-.research_gallery
-{
-	margin-bottom: 450px;
-}
-
-#research p {
-	margin-top: 200px;
-	margin-bottom: 100px;
-	padding-left: 40px;
-	padding-right: 40px;
-	font-family: PT Sans;
+  color: #49359f;
 }
 
 
-.column_g {
-  float: left;
-  width: 47%;
-  padding: 20px;
+
+
+/*_______________________________________________________*/
+
+
+/*MEDIA QUERRIES*/
+
+@media only screen and (max-width: 600px) {
+	body {
+/*		background-color: blue;*/
+	}
+
+/*	CARDS*/
+
+	.card p {
+		font-size: 16px;
+	}
+
+	.column {
+    width: 100%;
+  }
+
+
+
+/*INTRO*/
+
+.intro {
+	margin: 0px 12px;
+	margin-bottom: 40px;
+}
+
+.intro h1 {
+	font-size: 30px;
+}
+
+.intro h2 {
+	margin: 8px;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 20px;
+	color: grey;
+/*	margin: 10px;*/
+/*	text-align: center;*/
+}
+
+}
+
+.portfolio .column.inspo{
+	width: 100%;
+	padding: 30px; 
+}
+
+.portfolio .column.inspo2{
+	width: 100%;
+	padding: 30px;
+}
+
+
+
+/*_______________________________________________________*/
+
+
+@media only screen and (min-width: 600px) {
+ body {
+/*  	background-color: green;*/
+  }
+  .column {
+    width: 100%;
+  }
+
+  /*INTRO*/
+
+  .intro {
+	margin: 0px;
+	margin-bottom: 40px;
+}
+
+.intro h1 {
+	font-size: 30px;
+	margin: 8px;
+}
+
+.intro h2 {
+	margin: 8px;
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 25px;
+/*	margin: 10px;*/
+/*	text-align: center;*/
+}
+
+
+/*REPORT*/
+
+ .column.report {
+	padding: 30px;
+	margin: 5px 0;
+}
+
+}
+
+
+
+
+/*_______________________________________________________*/
+
+
+@media only screen and (min-width: 768px) {
+  body {
+/*  	background: silver;*/
+  }
+
+  .column {
+	float: left;
+	width: 33.33%;
+	overflow: hidden;
+}
+
+  video {
+  display: block;
+	margin: 20px auto;
+}
+
+/*INTRO*/
+
+.intro {
+	margin: 0px 12px;
+	margin-bottom: 40px;
+}
+
+.intro h1 {
+	font-size: 30px;
+}
+
+.intro h2 {
+	margin: 8px;
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 25px;
+/*	margin: 10px;*/
+/*	text-align: center;*/
+}
+
+.intro p {
+	margin: 20px;
+}
+
+/*BLOG*/
+.quiz .column {
+    width: 50%;
+  }
+
+/*REPORT*/
+.column.report {
+	width: 100%;
+	padding: 30px;
+}
+
+
+}
+
+ 
+/*_______________________________________________________*/
+
+
+@media only screen and (min-width: 992px) {
+  body {
+/*  	background: purple;*/
+  }
+
+  video {
+  display: block;
+	margin: 22px auto;
+}
+
+.intro h1 {
+	font-size: 40px;
+
+}
+
+.intro h2 {
+		margin: 8px;
+		font-size: 25px;
+}
+
+h2 {
+	font-size: 35px;
+/*	margin: 10px;*/
+/*	text-align: center;*/
+}
+
+/*INTRO*/
+
+.intro {
+	margin: 0px 150px;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+
+/*BLOG*/
+.quiz .column {
+    width: 50%;
+  }
+
+
+ .portfolio .column.inspo2{
+	width: 50%;
+	padding: 20px;
+}
+
+.portfolio .column.img {
+	padding: 20px;
+	width: 50%;
+}
+
+
+.column.report {
+	width: 50%;
+	padding: 30px;
+}
+
+
+}
+
+/*_______________________________________________________*/
+
+@media only screen and (min-width: 1200px) {
+  body {
+/*  	background: #3c3644;*/
+  }
+
+  video {
+  display: block;
+	margin: 26px auto;
+}
+
+.intro p {
+	font-size: 1em;
+	margin: 0 225px;
+}
+
+/*BLOG*/
+
+.quiz .column {
+    width: 33.33%;
+  }
+
+  .portfolio .column.inspo{
+	width: 50%;
+	padding: 20px;
+}
+
+
+.portfolio .column.inspo2{
+	width: 25%;
+	padding: 20px;
+}
+
+.portfolio .column.img {
+	padding: 20px;
+	width: 33.33%;
+}
+
+
 }
 
 
