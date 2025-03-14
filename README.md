@@ -153,6 +153,40 @@ CSS:
 
 
 
+<!--EXTRA PROJECTS that did not make the index/portfolio page -->
+
+ <!-- <div class="row">
+			<div class="column">
+				<div class="card">
+					<img src="images/spec.jpeg" alt="Image of the Nature Terrarium featuring Phytoplankton">
+					<p>Phytoplankton Terrarium</p>
+				</div>
+
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<img src="images/headphones.jpeg" alt="Image of 'Can you Hear Me?' Product Box">
+					<p>'Can you Hear Me?' Product Box</p>
+				</div>
+
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<img src="images/picker_1.png" alt="Image of The Chicken Picker">
+					<p>Personal Projects</p>
+				</div>
+
+			</div>
+		</div> -->
+
+
+
+
+
+
+
 
 
 

@@ -1,10 +1,12 @@
 /*
+
+OLD COLOURS: 
 nav yellow: #f2b705
 text yellow:#ffd958
 purple: #cba1ff
 light blue: #bbd7e8
 light purple: #D8BFD8
-dark grey: #222222
+dark grey: #545454
 
 UPDATED COLOURS
 #b8b3d7, w white
@@ -13,7 +15,6 @@ UPDATED COLOURS
 #372887, 
 #241b70, 
 #545454
-
 
 */
  
@@ -43,9 +44,23 @@ UPDATED COLOURS
 	box-sizing: border-box;
 }
 
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+/*.bg {
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+
+
  
 body{ 
-	background-color: white; 
+	background-color: whitesmoke; 
 	margin: 0;
 }
  
@@ -63,7 +78,7 @@ h2 {
 
 h3 {
 	font-size: 20px;
-	color: #D8BFD8;
+	color: #545454;
 	margin: 30px 30px 0px 30px; 
 }
 
@@ -76,13 +91,16 @@ p {
 
 
 a {
-	color: lightblue;
+	color: blue;
 
 }
 
 
-
 /*HOMEPAGE*/
+
+.gallery p {
+	font-size: 1.1em;
+}
 
 .intro h1 {
 	font-weight: 600; 
@@ -105,12 +123,63 @@ a {
 }
 
 
+.gallery h3 {
+	float: left; 
+}
+
+.button, .button2, .button3 {
+	float: right;
+	font-family: "PT Sans", serif;
+	transition: 0.3s;
+	cursor: pointer;
+	padding: 5px 15px;
+	font-size: 1em;
+}
+
+
+.button, .button2 {
+	margin-top: 15px;
+}
+
+.button {
+	background-color: #49359f;
+	color: white;
+	border-radius: 5px;
+	border: 2px solid #49359f;
+	font-family: "PT Sans", serif;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+
+.button a {
+		color: white;
+}
+
+.button a:hover { 
+color: black;
+ }
+
+.button:hover {
+	background-color: white;
+}
+
+
+.button2, .button3 {
+	float: right;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	border: 2px solid palevioletred;
+	font-family: "PT Sans", serif;
+}
 
 
 /*NAVIGATION*/
 
 
 .navigation{
+	position: sticky;
 	margin: 0px;
 	padding: 2px;
 	list-style-type: none;
@@ -151,21 +220,32 @@ a {
 	border-radius: 12px;
 }
 
+.fa-envelope {
+	margin-right: 20px;
+}
+
+.fa-envelope a:hover {
+	color: white;
+}
+
+
+
+
 
 
 /*COLUMNS + CARDS */
 
 /*to see the full container on hompage */
 .gallery {
+	margin: 0px 75px;
 	margin-bottom: 200px;
 /*	border: 1px solid;*/
 }
 
-.footer {
-	background-color: lightgrey;
-	text-align: center;
-	padding: 10px;
-}
+
+/*Reference for adding the shadow boxes to cards:
+ https://www.w3schools.com/css/css3_shadows_box.asp 
+W3 Schools - CSS Box Shadow */
 
 .card {
 	background-color: white;
@@ -186,6 +266,7 @@ a {
 
 .card p {
 	color: black;
+	padding: 5px;
 }
 
 .row:after {
@@ -194,6 +275,7 @@ a {
 	clear: both;
 
 }
+
 
 video {
   width: 100%;
@@ -204,6 +286,48 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/*FOOTER*/
+
+.footer {
+	background-color: #b8b3d7;
+	text-align: center;
+	padding: 20px;
+	list-style-type: none;
+	background-color: #b8b3d7;
+	box-shadow: 0 1px 5px 0 lightgrey;
+	font-family: verdana;
+	margin: auto;
+}
+
+.footer ul {
+	list-style-type: none;
+	width: 300px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 0;
+}
+
+.footeer li {
+	font-weight: 500;
+}
+
+.footer a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 12px;
+
+}
+
+.footer a:hover {
+	color: white;
+	background-color: #49359f;
+	border-radius: 12px;
+}
+
+
+
 
 
 
@@ -245,7 +369,7 @@ img {
 }
 
 .portfolio li {
-	color: white;
+	color: #545454;
 	font-family: Verdana;
 	font-size: 14px;
 }
@@ -268,7 +392,7 @@ img {
 }
 
 .paragraph_layout li {
-	color: white;
+	color: #545454;
 	font-family: Verdana;
 	font-size: 14px;
 }
@@ -283,8 +407,71 @@ img {
 }
 
 
+/*CASESTUDY - HEALTHBRIDGE*/
+
+.healthbridge {
+	margin: 150px;
+}
+
+.healthbridge h1, h2 {
+	color: black;
+	margin: 0;
+}
 
 
+.containerhb {
+	margin: 75px;
+}
+
+
+.parallax {
+	background-image: url("../images/healthbridge.jpeg");
+	background-attachment: fixed;
+	background-image: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+
+.column {
+	padding: 15px;
+}
+
+.row2:after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+
+.paragraph_layout_hb { 
+	margin-bottom: 100px;
+ }
+
+.paragraph_layout_hb ul{
+	float: left;
+	font-family: verdana;
+	font-weight: 300;
+	font-size: 15px;
+	margin-left: 65px;
+}
+
+.paragraph_layout_hb li {
+	color: #545454;
+	font-family: Verdana;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+
+/*References for line breaks: https://www.w3schools.com/howto/howto_css_style_hr.asp */
+
+hr {
+    border: 1px solid #85CDD6;
+  	border-radius: 5px;
+}
 
 
 /* REFERENCES */
@@ -296,6 +483,11 @@ img {
 	color: #545454;
 	font-family: Verdana;
 	font-size: 0.75rem;
+
+/*This helped with responsive text (using clamps), making cards and responsive images: 
+https://www.youtube.com/watch?v=vQDgoQKfdzM&list=PLXfxuzMU2DHPpd_TP0LWzs33CfjzyNAU9&index=3
+How to make your website responsive*/
+
 	font-size: clamp(0.75rem, 0.625rem + 0.5vw, 1rem);
 	margin-bottom: 50px;
 }
@@ -365,7 +557,7 @@ img {
 
 h2 {
 	font-size: 20px;
-	color: grey;
+	color: #372887;
 /*	margin: 10px;*/
 /*	text-align: center;*/
 }
@@ -391,6 +583,7 @@ h2 {
  body {
 /*  	background-color: green;*/
   }
+
   .column {
     width: 100%;
   }
@@ -568,7 +761,7 @@ h2 {
 
 .intro p {
 	font-size: 1em;
-	margin: 0 225px;
+	margin: 0px 225px;
 }
 
 /*BLOG*/
