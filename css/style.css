@@ -238,8 +238,11 @@ color: black;
 /*to see the full container on hompage */
 .gallery {
 	margin: 0px 75px;
+}
+
+.gallery.bottom {
+	margin: 0px 75px;
 	margin-bottom: 200px;
-/*	border: 1px solid;*/
 }
 
 
