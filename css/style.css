@@ -436,6 +436,20 @@ img {
 	height: 100%;
 }
 
+.hero {
+	display: block;
+	margin: auto;
+	width: 50%;
+	margin-bottom: -50px;
+}
+
+.hero_2 {
+	display: block;
+	margin: auto;
+	width: 100%;
+	padding: 20px;
+}
+
 
 .column {
 	padding: 15px;
