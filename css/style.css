@@ -431,10 +431,15 @@ img {
 	margin: 0;
 }
 
+.slideshow img {
+	margin: 20px;
+}
+
 
 .containerhb {
 	margin: 75px;
 }
+
 
 
 .parallax {
@@ -491,6 +496,7 @@ img {
 	font-size: 14px;
 	margin-bottom: 15px;
 }
+
 
 
 /*References for line breaks: https://www.w3schools.com/howto/howto_css_style_hr.asp */
