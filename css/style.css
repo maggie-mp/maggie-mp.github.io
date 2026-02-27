@@ -133,7 +133,7 @@ a {
 }
 
 .button, .button2, .button3 {
-	float: right;
+	float: left;
 	font-family: "PT Sans", serif;
 	transition: 0.3s;
 	cursor: pointer;
@@ -143,13 +143,12 @@ a {
 
 
 .button, .button2 {
-	margin-top: 15px;
+	margin: 15px 0px;
 }
 
 .button {
 	background-color: #49359f;
 	color: white;
-	border-radius: 5px;
 	border: 2px solid #49359f;
 	font-family: "PT Sans", serif;
 	transition: 0.3s;
@@ -162,11 +161,11 @@ a {
 }
 
 .button a:hover { 
-color: black;
- }
+color: white;
+}
 
 .button:hover {
-	background-color: white;
+	background-color: blueviolet;
 }
 
 
@@ -262,6 +261,8 @@ W3 Schools - CSS Box Shadow */
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 	transition: 0.3s;
+	display: flex;
+	flex-direction: column;
 }
 
 .card:hover {
@@ -275,6 +276,11 @@ W3 Schools - CSS Box Shadow */
 .card p {
 	color: black;
 	padding: 5px;
+}
+
+.card h3 {
+	margin: 0px;
+	padding-bottom: 20px;
 }
 
 .row:after {
